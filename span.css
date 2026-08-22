@@ -1,0 +1,86 @@
+.navbar{
+    font-size: 16px;             /* tamaño de texto */
+    letter-spacing: 1px;         /* espacio entre letras */
+}
+
+.navbar .nav-link{
+    color: #fff;                /* color del texto*/
+    transition: 0.3s;             /* tiempo de respuesta del mouse*/
+}
+
+.navbar .nav-link:hover{
+    color: #ffc107;               /* cambia a amarillo al pasar el mouse */
+}
+
+.navbar-nav .nav-item {
+    display: inline-flex; /* mantiene el enlace y el separador en línea */
+    align-items: center;  /* centra verticalmente */
+}
+
+.navbar-nav .nav-item:not(:last-child)::after{
+    display: inline-block;
+    content: "|"; 
+    color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* ====== Boton de Mas ====== */
+.dropdown-menu{
+    background-color: #343a40;
+    border-radius: 5px;    
+}
+
+.dropdown-menu .dropdown-item{
+    color: #1a1919;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: #ffc107; /* amarillo al pasar el mouse */
+    color: #000;
+}
+
+/* ====== FORMULARIO DE BÚSQUEDA ====== */
+.formulario input{
+    border-radius: 5px;            /* bordes redondeados */
+}
+.formulario button{
+    font-weight: bold; 
+}
+
+/* ====== SECCIÓN PRINCIPAL ====== */
+#extracto {
+    text-align: right;
+    margin-top: auto;
+}
+
+#extracto p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Imagen responsiva */
+#extracto img {
+    max-height: 500px;        /* altura máxima */
+    object-fit: cover;        /* recorta si es necesario */
+    border-radius: 8px;       /* esquinas redondeadas */
+}
+
+/* ====== FOOTER ====== */
+#Creador {
+    text-align: center;       /* centra el texto */
+    font-size: 14px;
+}
+
+#Creador p {
+    margin: 0;
+}
+
+#video iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;   /* ancho total */
+    height: 100vh;  /* alto total */
+    border: none;
+}
