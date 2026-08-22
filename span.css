@@ -25,6 +25,10 @@
     margin-right: 8px;
 }
 
+.navbar .nav-brand{
+    margin: auto;
+}
+
 /* ====== Boton de Mas ====== */
 .dropdown-menu{
     background-color: #343a40;
@@ -68,8 +72,9 @@
 
 /* ====== FOOTER ====== */
 #Creador {
-    text-align: center;       /* centra el texto */
+    text-align: left;       /* centra el texto */
     font-size: 14px;
+    color: #333;
 }
 
 #Creador p {
