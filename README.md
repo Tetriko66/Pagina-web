@@ -12,6 +12,7 @@ El objetivo es construir un sitio de ecommerce que refleje la importancia de la 
 ## 📂 Estructura del repositorio
 - **index.html** → Página principal con navbar, video y bienvenida.  
 - **span.css** → Estilos personalizados.  
+- **Extension** → Pagina ligada al boton "Nosotros".  
 - **funciones.js** → Funciones JavaScript para validaciones y lógica.  
 - **/assets** → Carpeta de imágenes y recursos multimedia.  
 
