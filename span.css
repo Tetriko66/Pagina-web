@@ -52,6 +52,25 @@
     font-weight: bold; 
 }
 
+/* ====== Barra de abajo ====== */
+
+html ,body{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    flex: 1;
+}
+
+footer{
+    margin-top: auto;
+}
+
 /* ====== SECCIÓN PRINCIPAL ====== */
 #extracto {
     text-align: right;
