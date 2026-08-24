@@ -108,3 +108,14 @@ footer{
     height: 100vh;  /* alto total */
     border: none;
 }
+
+/* ====== Texto pestaña sucursal ====== */
+.info-sucursal p {
+    margin-bottom: 8px;   /* espacio entre párrafos */
+}
+
+.info-sucursal h2, 
+.info-sucursal h3 {
+    margin-top: 10px;   /* espacio antes de los títulos */
+    margin-bottom: 15px;   /* espacio después de los títulos */
+}
