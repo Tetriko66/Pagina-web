@@ -1,95 +1,40 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
-    <head>
-        
-        <!--Soporta acentos y ñ-->
-         <meta charset="UTF-8">
-        <title>Lo quieres, te lo vendo</title>
-        
-        <!--Conecta con css para personalizar diseños-->
-        <link rel="stylesheet" href="span.css">
-        
-        <!--Conecta bootstrap-->
-         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    
-    <!--Body para abajo es el archivo visible de la pagina web-->
-    <body>
-        
-        <!--Hace la clase con la barra responsiva y el fondo blanco-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-                
-                <!--Contenedor que ocupa todo el ancho-->
-            <div class="container-fluid"> 
+<head>
+    <!--Soporta acentos y ñ-->
+    <meta charset="UTF-8">
+    <title>Lo quieres, te lo vendo</title>
 
-                    <!--Nombre o logo del sitio-->
-                    <a class="navbar-brand" href="TIENDA.html" >
-                        <img src="https://www.holded.com/images/og/blog/que-es-ecommerce.jpg" 
-                            alt="Logo" width="45" height="45" 
-                            class="d-inline-block align-text-center">
-                        <strong>TecnoCollab</strong>
-                    </a>
-                    <!--boton que aparece en la pagina para desplegar el menu-->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <!--Icono del boton de hamburguesa(≡)-->
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+    <!--Conecta con css para personalizar diseños-->
+    <link rel="stylesheet" href="span.css">
 
-                <!--Contenedor que abre y cierra en pantallas pequeñas-->
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <!--Lista de enlaces al menu-->
-                    <ul class="navbar-nav mx-auto d-flex flex-row">
-                        <!--Opciones-->
-                        <li class="nav-item mx-2">  
-                            <a class="nav-link active" href="TIENDA.html">Home</a></li>
-                        <li class="nav-item mx-2">  
-                            <a class="nav-link " href="Nosotros.html">Nosotros</a></li>
-                        <li class="nav-item mx-2">  
-                            <a class="nav-link " href="Sucursal.html">Sucursal</a></li>
-                        <li class="nav-item dropdown">
-                            <!--Enlace dentro de cada opcion-->
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Mas</a>
-                            <!--Menu desplegable con mas opciones--> 
-                            <ul class="dropdown-menu">
-                                <a class="dropdown-item" href="Contactos.html">Contactos</a>
-                                <a class="dropdown-item" href="Ayuda.html">Ayuda</a>
-                            </ul>
-                        </li>
-                    </ul>
-                    <!--Formulario donde se puede escribir-->
-                    <!--class="d-flex formulario" → d-flex lo pone en fila horizontal, formulario es tu clase personalizada.-->
-                    <!--onsubmit="checkear_formulario(); return false;" → Cuando se envía, ejecuta tu función JavaScript y evita recargar la página.-->
-                    <form class="d-flex formulario ms-auto" role="search" onsubmit="checkear_formulario(); return false;">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" style="width:500px;">
-                        <button class="btn btn-dark" type="submit">Buscar</button>
-                    </form>
-                </div>
-            </div>           
-        </nav>
+    <!--Conecta bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
 
-        <!--Contendio visible-->
-        <section id="extracto" class="container mt-5">
-            <iframe 
-                width="100%" 
-                height="600" 
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
-        </section>
+    <!--Hace la clase con la barra responsiva y el fondo blanco-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
 
-<<<<<<< ramita-seba
-            <footer id="Creador" class="bg-dark text-white p-3 mt-5">
-                <ul>
-                    <small><li>Vicente Rodriguez</li></small>
-                    <small><li>Sebastian Valderrama</li></small>
-                    <small>©2026 TecnoCollab</small>
-=======
+        <!--Contenedor que ocupa todo el ancho-->
+        <div class="container-fluid">
+
+            <!--Nombre o logo del sitio-->
+            <a class="navbar-brand" href="TIENDA.html">
+                <img src="https://www.holded.com/images/og/blog/que-es-ecommerce.jpg"
+                     alt="Logo" width="45" height="45"
+                     class="d-inline-block align-text-center">
+                <strong>TecnoCollab</strong>
+            </a>
+
+            <!--boton que aparece en la pagina para desplegar el menu-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <!--Icono del boton de hamburguesa(≡)-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
             <!--Contenedor que abre y cierra en pantallas pequeñas-->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!--Lista de enlaces al menu-->
@@ -107,20 +52,90 @@
                            data-bs-toggle="dropdown" aria-expanded="false">Mas</a>
                         <!--Menu desplegable con mas opciones-->
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Contacto.html">Contacto</a></li>
-                            <li><a class="dropdown-item" href="Blogs.html">Blogs</a></li>
+                            <li><a class="dropdown-item" href="Contactos.html">Contactos</a></li>
+                            <li><a class="dropdown-item" href="Ayuda.html">Ayuda</a></li>
                         </ul>
                     </li>
->>>>>>> local
                 </ul>
-            
-            </footer>   
-        <div>   
-            <!-- Bootstrap JS -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-            <!-- Tu archivo JavaScript -->
-            <script src="funciones.js"></script>
+                <!--Formulario donde se puede escribir-->
+                <!--class="d-flex formulario" → d-flex lo pone en fila horizontal, formulario es tu clase personalizada.-->
+                <!--onsubmit="checkear_formulario(); return false;" → Cuando se envía, ejecuta tu función JavaScript y evita recargar la página.-->
+                <form class="d-flex formulario ms-auto" role="search" onsubmit="checkear_formulario(); return false;">
+                    <input id="buscador" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" style="width:500px;">
+                    <button class="btn btn-dark" type="submit">Buscar</button>
+                </form>
+            </div>
         </div>
-    </body>
+    </nav>
+
+    <!--Contenido visible-->
+    <section id="extracto" class="container mt-5">
+        <h1 class="text-center mb-4">Nuestros Productos</h1>
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="https://assets.pcfactory.cl/public/foto/56193/5_500.jpg?t=1776701920373" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Adata® Memoria RAM DDR5 8GB 5600 MHz UDIMM BLACK</h5>
+                        <p class="card-text text-muted">ID: 52649 | Disponibilidad: +100 Unid.</p>
+                        <p class="text-success"><strong>$164.990</strong></p>
+                        <p class="text-decoration-line-through text-secondary">Precio normal: $239.990</p>
+                        <p class="text-danger fw-bold">Oferta -31%: $164.990 (Transferencia/Débito)</p>
+                        <p class="text-success">Otro medio de pago: $173.690</p>
+                        <button type="submit" class="btn btn-primary w-100">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="https://assets.pcfactory.cl/public/foto/56531/1_500.jpg?t=1785911084421" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus® NVIDIA Dual GeForce RTX 3050 6GB OC Edition GDDR6</h5>
+                        <p class="card-text text-muted">ID: 45691 | Disponibilidad: +100 Unid.</p>
+                        <p class="text-success"><strong>$254.990</strong></p>
+                        <p class="text-decoration-line-through text-secondary">Precio normal: $299.990</p>
+                        <p class="text-danger fw-bold">Oferta -15%: $254.990 (Transferencia/Débito)</p>
+                        <p class="text-success">Otro medio de pago: $268.890</p>
+                        <button type="submit" class="btn btn-primary w-100">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="https://assets.pcfactory.cl/public/foto/56578/6_500.jpg?t=1779223903742" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Gigabyte® Fuente de poder 650W 80 Plus Gold</h5>
+                        <p class="card-text text-muted">ID: 35698 | Disponibilidad: +100 Unid.</p>
+                        <p class="text-success"><strong>$59.990</strong></p>
+                        <p class="text-decoration-line-through text-secondary">Precio normal: $69.990</p>
+                        <p class="text-danger fw-bold">Oferta -14%: $59.990 (Transferencia/Débito)</p>
+                        <p class="text-success">Otro medio de pago: $63.190</p>
+                        <button type="submit" class="btn btn-primary w-100">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="Creador" class="bg-dark text-white p-3 mt-5">
+        <ul>
+            <small><li>Vicente Rodriguez</li></small>
+            <small><li>Sebastian Valderrama</li></small>
+            <small>©2026 TecnoCollab</small>
+        </ul>
+    </footer>
+
+    <div>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Tu archivo JavaScript -->
+        <script src="funciones.js"></script>
+    </div>
+</body>
 </html>

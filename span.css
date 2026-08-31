@@ -110,6 +110,7 @@ footer{
 }
 
 /* ====== Texto pestaña sucursal ====== */
+
 .info-sucursal p {
     margin-bottom: 8px;   /* espacio entre párrafos */
 }
@@ -118,24 +119,23 @@ footer{
 .info-sucursal h3 {
     margin-top: 10px;   /* espacio antes de los títulos */
     margin-bottom: 15px;   /* espacio después de los títulos */
-<<<<<<< ramita-seba
-=======
+
 }
 
 /* ===== FORMULARIO DE CONTACTO ===== */
 
 .formulario-contacto {
     max-width: 650px;
-    margin: 30px auto;
+    margin: 30px auto; /* Margen arriba y abajo / izq y der*/
     border: 2px solid #333;
     background-color: #eeeeee;
-    padding: 25px;
+    padding: 25px; /* Espacio interno */
 }
 
 .titulo-contacto {
     text-align: center;
     background-color: #cccccc;
-    padding: 12px;
+    padding: 12px; /* Espacio interno */
     margin: -25px -25px 25px -25px;
     font-size: 18px;
 }
@@ -151,9 +151,9 @@ footer{
 }
 
 .formulario-contacto button {
-    margin-top: 15px;
-    padding: 15px 45px;
+    margin-top: 15px; /* Espacio arriba */
+    padding: 15px 45px; /* Espacio interno */
     border: 2px solid #333;
     border-radius: 0;
->>>>>>> local
+
 }
