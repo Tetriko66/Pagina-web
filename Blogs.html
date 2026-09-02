@@ -14,6 +14,16 @@
 </head>
 
 <body>
+    <!-- BARRA SUPERIOR (Para Iniciar sesión y Registrar usuario) -->
+<div class="bg-light py-1 px-3 border-bottom text-end">
+    <!-- Texto pequeño alineado a la derecha -->
+    <small>
+        <!-- Enlace a la vista de login -->
+        <a href="login.html" class="text-decoration-none me-3">Iniciar sesión</a>
+        <!-- Enlace a la vista de registro -->
+        <a href="registro.html" class="text-decoration-none">Registrar usuario</a>
+    </small>
+</div>
     <!--Hace la clase con la barra responsiva y el fondo blanco-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
 
@@ -62,6 +72,11 @@
                     <input id="buscador" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" style="width:500px;">
                     <button class="btn btn-dark" type="submit">Buscar</button>
                 </form>
+                <!-- BOTÓN DEL CARRITO DE COMPRAS CON CONTADOR DINÁMICO -->
+                <a href="carrito.html" class="btn btn-outline-light d-flex align-items-center">
+                <!-- Ícono del carrito y contador dinámico con ID cant-carrito -->
+                🛒 Carrito (<span id="cant-carrito">0</span>)
+                </a>
             </div>
         </div>
     </nav>
