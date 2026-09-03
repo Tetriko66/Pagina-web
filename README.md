@@ -1,34 +1,39 @@
-# 🏫 Proyecto - TecnoCollab
+# 🎮 Proyecto - LevelUp
 
-Este repositorio corresponde al proyecto universitario **TecnoCollab**, desarrollado como parte de la asignatura de desarrollo web.  
-El objetivo es construir un sitio de ecommerce que refleje la importancia de la colaboración tecnológica y la accesibilidad en plataformas digitales.
+Este repositorio corresponde al proyecto universitario **LevelUp**, desarrollado para la asignatura de Desarrollo Fullstack II.
 
-## 🎯 Objetivos del proyecto
-- Aplicar conocimientos de **HTML, CSS, Bootstrap y JavaScript** en un caso práctico.  
-- Diseñar una página web responsiva con navegación clara y moderna.  
-- Explicar el motivo y razón de ser del ecommerce en una sección dedicada ("Nosotros").  
-- Integrar recursos multimedia (video, imágenes, íconos) para enriquecer la experiencia del usuario.  
+El objetivo es construir una tienda online de productos tecnológicos utilizando HTML, CSS, Bootstrap y JavaScript.
 
-## 📂 Estructura del repositorio
-- **index.html** → Página principal con navbar, video y bienvenida.  
-- **span.css** → Estilos personalizados.  
-- **Extension** → Pagina ligada al boton "Nosotros".  
-- **funciones.js** → Funciones JavaScript para validaciones y lógica.  
-- **/assets** → Carpeta de imágenes y recursos multimedia.  
+## 🎯 Funcionalidades principales
+
+- Navegación entre distintas páginas del sitio.
+- Catálogo de productos tecnológicos.
+- Buscador de productos con JavaScript.
+- Formulario de contacto con validaciones.
+- Página de sucursal con mapa y horarios.
+- Diseño responsivo utilizando Bootstrap.
+- Estilos personalizados mediante CSS externo.
+
+## 📂 Estructura del proyecto
+
+- **TIENDA.html** → Página principal y catálogo de productos.
+- **Nosotros.html** → Información sobre LevelUp.
+- **Sucursal.html** → Dirección, horarios y mapa de la sucursal.
+- **Contacto.html** → Formulario de contacto.
+- **span.css** → Estilos personalizados del sitio.
+- **funciones.js** → Funciones JavaScript para búsqueda y validación de formularios.
 
 ## 🛠️ Tecnologías utilizadas
-- [HTML5](ca://s?q=HTML5_basico)  
-- [CSS3](ca://s?q=CSS3_basico)  
-- [Bootstrap 5](ca://s?q=Bootstrap_5_basico)  
-- [JavaScript](ca://s?q=JavaScript_basico)
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- Git y GitHub
 
 ## 📖 Cómo ejecutar
+
 1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/Tetriko66/Pagina-web.git
 
-## 👥 Autores
-Vicente Rodríguez
-Sebastián Valderrama
-
-© 2026 TecnoCollab
+```bash
+git clone https://github.com/Tetriko66/Pagina-web.git

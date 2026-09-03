@@ -1,60 +1,65 @@
-.navbar{
-    font-size: 16px;             /* tamaño de texto */
-    letter-spacing: 1px;         /* espacio entre letras */
+/* ===== NAVBAR ===== */
+.navbar {
+    background-color: #000000; /* negro gamer */
+    font-size: 16px;           /* tamaño de texto */
+    letter-spacing: 1px;       /* espacio entre letras */
 }
 
-.navbar .nav-link{
-    color: #fff;                /* color del texto*/
-    transition: 0.3s;             /* tiempo de respuesta del mouse*/
+.navbar .nav-link {
+    color: #FFFFFF;            /* texto blanco */
+    transition: 0.3s;          /* tiempo de respuesta del mouse */
 }
 
-.navbar .nav-link:hover{
-    color: #ffc107;               /* cambia a amarillo al pasar el mouse */
+.navbar .nav-link:hover {
+    color: #1E90FF;            /* azul eléctrico en hover */
+}
+
+.navbar .nav-link.active {
+    color: #FFFFFF;            /* Home igual que el resto */
 }
 
 .navbar-nav .nav-item {
-    display: inline-flex; /* mantiene el enlace y el separador en línea */
-    align-items: center;  /* centra verticalmente */
+    display: inline-flex;       /* mantiene enlace y separador en línea */
+    align-items: center;        /* centra verticalmente */
 }
 
-.navbar-nav .nav-item:not(:last-child)::after{
+.navbar-nav .nav-item:not(:last-child)::after {
     display: inline-block;
     content: "|"; 
-    color: #fff;
-    margin-left: 8px;
-    margin-right: 8px;
+    color: #FFFFFF;             /* separador blanco */
+    margin: 0 8px;
 }
 
-.navbar .nav-brand{
+.navbar .nav-brand {
     margin: auto;
 }
 
-/* ====== Boton de Mas ====== */
-.dropdown-menu{
-    background-color: #343a40;
+/* ===== DROPDOWN ===== */
+.dropdown-menu {
+    background-color: #000000;  /* fondo negro */
     border-radius: 5px;    
 }
 
-.dropdown-menu .dropdown-item{
-    color: #1a1919;
+.dropdown-menu .dropdown-item {
+    color: #000000;             /* texto blanco */
 }
 
-.dropdown-menu .dropdown-item:hover{
-    background-color: #ffc107; /* amarillo al pasar el mouse */
-    color: #000;
+.dropdown-menu .dropdown-item:hover {
+    background-color: #39FF14;  /* verde neón en hover */
+    color: #000000;             /* texto negro para contraste */
 }
 
-/* ====== FORMULARIO DE BÚSQUEDA ====== */
-.formulario input{
-    border-radius: 5px;            /* bordes redondeados */
+/* ===== FORMULARIO DE BÚSQUEDA ===== */
+.formulario input {
+    border-radius: 5px;         /* bordes redondeados */
 }
-.formulario button{
+
+.formulario button {
     font-weight: bold; 
 }
 
-/* ====== Barra de abajo ====== */
-
-html ,body{
+/* ===== LAYOUT GENERAL ===== */
+html, body {
     height: 100%;
 }
 
@@ -63,15 +68,60 @@ body {
     flex-direction: column;
 }
 
-section{
+section {
     flex: 1;
 }
 
-footer{
+footer {
     margin-top: auto;
 }
 
-/* ====== SECCIÓN PRINCIPAL ====== */
+/* ===== HERO ===== */
+#Hero {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 60px 20px;
+    border-radius: 8px;
+}
+
+#Hero h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #1E90FF;             /* azul eléctrico */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#Hero h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #D3D3D3;             /* gris claro */
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 16px;
+}
+
+.btn-landing {
+    background-color: #39FF14;  /* verde neón */
+    color: #000000;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-landing:hover {
+    background-color: #1E90FF;  /* azul eléctrico en hover */
+    color: #FFFFFF;
+    box-shadow: 0 0 15px #1E90FF; /* glow gamer */
+}
+
+#Hero img {
+    max-height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #1E90FF;
+}
+
+/* ===== EXTRACTO ===== */
 #extracto {
     text-align: right;
     margin-top: auto;
@@ -79,63 +129,38 @@ footer{
 
 #extracto p {
     font-size: 18px;
-    color: #333;
+    color: #D3D3D3;             /* gris claro */
 }
 
-/* Imagen responsiva */
 #extracto img {
-    max-height: 500px;        /* altura máxima */
-    object-fit: cover;        /* recorta si es necesario */
-    border-radius: 8px;       /* esquinas redondeadas */
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
-/* ====== FOOTER ====== */
-#Creador {
-    text-align: left;       /* centra el texto */
-    font-size: 14px;
-    color: #333;
-}
-
-#Creador p {
-    margin: 0;
-}
-
-#video iframe {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;   /* ancho total */
-    height: 100vh;  /* alto total */
-    border: none;
-}
-
-/* ====== Texto pestaña sucursal ====== */
-
+/* ===== SUCURSAL ===== */
 .info-sucursal p {
-    margin-bottom: 8px;   /* espacio entre párrafos */
+    margin-bottom: 8px;
 }
 
 .info-sucursal h2, 
 .info-sucursal h3 {
-    margin-top: 10px;   /* espacio antes de los títulos */
-    margin-bottom: 15px;   /* espacio después de los títulos */
-
+    margin: 10px 0 15px 0;
 }
 
 /* ===== FORMULARIO DE CONTACTO ===== */
-
 .formulario-contacto {
     max-width: 650px;
-    margin: 30px auto; /* Margen arriba y abajo / izq y der*/
+    margin: 30px auto;
     border: 2px solid #333;
     background-color: #eeeeee;
-    padding: 25px; /* Espacio interno */
+    padding: 25px;
 }
 
 .titulo-contacto {
     text-align: center;
     background-color: #cccccc;
-    padding: 12px; /* Espacio interno */
+    padding: 12px;
     margin: -25px -25px 25px -25px;
     font-size: 18px;
 }
@@ -151,9 +176,55 @@ footer{
 }
 
 .formulario-contacto button {
-    margin-top: 15px; /* Espacio arriba */
-    padding: 15px 45px; /* Espacio interno */
+    margin-top: 15px;
+    padding: 15px 45px;
     border: 2px solid #333;
     border-radius: 0;
+}
 
+/* ===== FOOTER ===== */
+.footer {
+    background-color: #000000;  /* fondo negro gamer */
+    color: #FFFFFF;             /* texto principal blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    margin-bottom: 5px;
+    color: #D3D3D3;             /* gris claro */
+    transition: 0.3s;
+}
+
+.footer li:hover {
+    color: #1E90FF;             /* azul eléctrico en hover */
+}
+
+.footer small {
+    color: #FFFFFF;             /* copyright */
+}
+
+/* ===== VIDEO ===== */
+#video iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0 0 20px #1E90FF;
+    transform: scale(1.02);
 }
