@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Level Up
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sitio web de **Level Up**, un ecommerce de tecnología y computación. Muestra el catálogo de productos y la información de la tienda en una interfaz moderna, oscura y responsive, con una estética futurista inspirada en el hardware.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- Barra de navegación con el logo de la tienda y enlaces a las distintas secciones.
+- Diseño responsive: se adapta a computadores, tablets y celulares.
+- Navegación entre páginas sin recargar el sitio.
+- Estilo visual oscuro con acentos rojos, pensado para una tienda de tecnología.
 
-### `npm start`
+## Tecnologías
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [React](https://react.dev/)
+- [React Bootstrap](https://react-bootstrap.github.io/) y Bootstrap
+- [React Router](https://reactrouter.com/)
+- CSS personalizado
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Estructura del proyecto
 
-### `npm test`
+```
+proyectonext/
+├── public/          Archivos públicos
+└── src/
+    ├── App.js       Componente principal
+    ├── CustomNav.js Barra de navegación
+    ├── Proyectos.js Sección de proyectos
+    └── ...          Estilos, imágenes y logo
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalación y uso
 
-### `npm run build`
+Este proyecto está dentro de la carpeta `proyectonext`. Para ejecutarlo en tu equipo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/Tetriko66/Pagina-web.git
+cd Pagina-web/proyectonext
+npm install
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Luego abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Scripts disponibles
 
-### `npm run eject`
+| Comando         | Descripción                                   |
+| --------------- | --------------------------------------------- |
+| `npm start`     | Inicia el servidor de desarrollo              |
+| `npm run build` | Genera la versión optimizada para producción  |
+| `npm test`      | Ejecuta las pruebas                           |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Identidad visual
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+El logo de Level Up combina un chip de procesador de estilo imperial con una tipografía tecnológica. Los colores principales son negro, gris acero, blanco y rojo.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Autor
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desarrollado por [Tetriko66](https://github.com/Tetriko66).
