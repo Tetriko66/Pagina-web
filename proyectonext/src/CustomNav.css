@@ -1,0 +1,20 @@
+.navbar-imperio{
+    background-color: #000000 !important; /* Negro absoluto */
+}
+
+.navbar-imperio .navbar-brand,
+.navbar-imperio .nav-link {
+  color: #f8fafc !important;
+  font-weight: 600;
+  letter-spacing: 1px; /* Toque futurista/militar */
+}
+
+.navbar-imperio .nav-link:hover {
+  color: #ffffff !important;
+  text-shadow: 0 0 8px rgba(244, 63, 94, 0.6);
+}
+
+.dropdown-menu{
+    background-color: #890c0c;
+    border-radius: 5px;    
+}
